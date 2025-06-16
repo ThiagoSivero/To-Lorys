@@ -1,7 +1,7 @@
 .painel {
-  width: 380px;
-  height: 500px;
-  background-color: indianred;
+  width: 375px;
+  height: 480px;
+  /* background-color: indianred; */
   background-image: url(cinderela4.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -37,7 +37,8 @@ body {
     padding: 40px;
     display: flex; */
 
-background-color: rgb(207, 93, 93);
+/* background-color: rgb(207, 93, 93); */
+ background: linear-gradient(#9d13f2,#2499ec);
     margin: 0;
   padding: 20px;
   display: flex;
@@ -88,7 +89,7 @@ h2{
     align-content: center; */
     margin-top: 350px;
     color: black;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-right: -20px;
     
 }
