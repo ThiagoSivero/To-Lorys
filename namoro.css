@@ -1,0 +1,110 @@
+.painel {
+  width: 380px;
+  height: 500px;
+  background-color: indianred;
+  background-image: url(cinderela4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+
+  /* width: 90%;
+  max-width: 445px;
+  height: auto;
+  aspect-ratio: 445 / 500; 
+  background-color: indianred;
+  background-image: url("rapunzel imagem.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative; Para os filhos com position:absolute se posicionarem relativos a ela */
+}
+
+body {
+    /* background-color: rgb(207, 93, 93);
+    margin-top: 200px;
+    margin: auto; */
+
+    /* background-color: rgb(207, 93, 93);
+    margin-top: 200px;
+    margin: 40px;
+    padding: 40px;
+    display: flex; */
+
+background-color: rgb(207, 93, 93);
+    margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+button {
+    align-items: center;
+    text-align: center;
+}
+
+#sim {
+    position: relative;
+    height: 40px;
+    width: 60px;
+    background-color: greenyellow;
+    border:2px solid white;
+    border-radius: 10px;
+    color: black;
+    margin-right: 20px;
+    margin-left: -40px;
+    margin-top: 400px;
+    
+
+}
+
+#nao {  
+    
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: red;
+    border:2px solid white;
+    border-radius: 10px;
+    color: black;
+    margin-top: 400px;
+
+
+}
+
+h2{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+    margin-top: 350px;
+    color: black;
+    margin-left: 10px;
+    margin-right: -20px;
+    
+}
+iframe {
+    margin-top: 20px;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 400px) {
+  h2 {
+    font-size: 1.1rem;
+  }
+
+  button {
+    width: 50px;
+    height: 35px;
+  }
+}

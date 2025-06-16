@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="namoro.css">
+    <title>Para Lorys</title>
+</head>
+
+<body>
+    <div class="Container">
+    <div class="painel">
+  
+    <h2>Aceita ser minha futura mulher?👀</h2>
+    <BUTTON id="sim" onclick="parabens()">Sim</BUTTON>
+    <BUTTON onmouseover="fuja()" id="nao">Não</BUTTON> 
+    
+    </div>
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6lanRgr6wXibZr8KgzXxBl?utm_source=generator" width="100%" height="132" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" ></iframe>
+    </div>
+
+    <script>
+        function fuja(){
+            var botaoNao = document.getElementById("nao")
+
+            var larguraJanela = window.innerWidth;
+            var alturaJanela = window.innerHeight;
+
+            var maxX = larguraJanela - botaoNao.offsetWidth;
+            var maxY = alturaJanela - botaoNao.offsetHeight;
+
+            var aleatorioX = Math.floor(Math.random() * maxX);
+            var aleatorioY = Math.floor(Math.random() * maxY);
+
+            botaoNao.style.left = aleatorioX + "px";
+            botaoNao.style.top = aleatorioY + "px";
+            
+        }
+
+        function parabens(){
+            alert("Parabens Lorys, você fez a escolha certa para sua vida 💓 ")
+        }
+    </script>
+       
+</body>
+</html>
